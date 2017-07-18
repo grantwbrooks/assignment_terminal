@@ -12,7 +12,7 @@ vi aboutMe.txt
 git add .
 git commit -m "added favorite movie to aboutMe"
 git log
-git revert HEAD -m "reverted to remove movie"
+git revert HEAD
 vi aboutMe.txt
 git add .
 git commit -m "added fav book"
